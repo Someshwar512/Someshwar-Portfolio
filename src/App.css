@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px !important;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F9FA; /* Soft light background */
+    color: #212121; /* Deep gray-black for better readability */
+}
+
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 80px;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+    background: #E3F2FD; /* Light Sky Blue */
+    border-radius: 10px;
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+    background: #B0B3B8; /* Muted Gray */
+    border-radius: 10px;
+}
+
+/* Scrollbar Handle on Hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #8D99AE; /* Soft Blue-Gray */
+}
+
+/* Smooth Animations */
+a, button {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Improve Link Styling */
+a {
+    color: #FF6F61; /* Modern Peach-Red */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #D63A47; /* Darker shade for interaction */
+}
+
+/* Button Styling */
+button {
+    background: #FF9B71; /* Warm Coral */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #FF6F61; /* Brighter interaction */
+}
