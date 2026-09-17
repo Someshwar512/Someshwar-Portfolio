@@ -32,7 +32,8 @@
       });
 
       // Disable DevTools in Other Ways (Experimental)
-      setInterval(() => {
+      setInterval(() => 
+      {
         const devtools = new Function("debugger");
         devtools();
       }, 1000);

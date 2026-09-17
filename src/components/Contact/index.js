@@ -3,7 +3,8 @@
 import React, { useRef, useState } from "react";
 import styled from "styled-components";
 import { Snackbar, Alert } from "@mui/material";
-import emailjs from "emailjs-com";
+// import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 // Styled Components
 const Container = styled.div`
